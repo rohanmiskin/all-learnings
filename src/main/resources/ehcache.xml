@@ -1,0 +1,16 @@
+<config xmlns="http://www.springframework.org/schema/aop">
+
+    <cache alias="pipelines">
+        <key-type>org.springframework.cache.interceptor.SimpleKey</key-type>
+        <value-type>java.lang.Integer</value-type>
+        <expiry>
+            <ttl unit="days">30</ttl>
+        </expiry>
+
+        <listeners>
+            <listener>
+                <class>com</class>
+            </listener>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </listeners>
+    </cache>
+</config>
